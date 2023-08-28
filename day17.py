@@ -10,3 +10,8 @@ for color in colors:
 
     for i in color:
         print(i)
+
+# printing numbers
+
+for number in range(0,1000):
+    print(number) 
