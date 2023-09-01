@@ -1,10 +1,12 @@
-# set datatype in python
-# set is a datatype in python which dose not contain duplicate data
-# it return only one set of data
+# different of set methods in python
 
+a = {1, 3, 5, 7, 44, 3, 4}
+b = {44, 66, 74, 22, 44, 22, 4, 5, 7}
 
-numbers = {2, 33, 52, 2, 5, 7, 5, 7}
-print(numbers)
-
-number = set()
-print(type(numbers))
+c = a.union(b)
+d = a.intersection(b)
+print(c)
+print(a.update(b))
+print(d)
+e = a.intersection_update(b)
+print(a)

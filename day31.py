@@ -1,14 +1,10 @@
-# recursion function
-# recursive function call itself
-
-def factorial(n):
-    if (n == 0 or n == 1):
-        return 1
-    else:
-        return n * factorial(n-1)
+# set datatype in python
+# set is a datatype in python which dose not contain duplicate data
+# it return only one set of data
 
 
-a = int(input("Enter a number: "))
+numbers = {2, 33, 52, 2, 5, 7, 5, 7}
+print(numbers)
 
-b = factorial(a)
-print(b)
+number = set()
+print(type(numbers))
